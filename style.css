@@ -62,6 +62,7 @@ font-family: Lato;
 font-size: 20px;
 font-weight: 700;
 border: none;
+text-decoration: none;
 }
 .feature-of-flowers{
   
@@ -244,11 +245,7 @@ font-weight: 400;
 
 }
 .btn2{
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
+  
     position: relative;
     top: 20px;
     line-height: normal;
@@ -259,6 +256,15 @@ font-weight: 400;
  
     
 
+}
+.text1{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
 }
 .flowers-varity{
     margin-top: 240px;
@@ -357,14 +363,28 @@ position: relative;
 .title4{
     position: relative;
     text-align: center;
-    top: 120px;
-    left: 45px;
+    top: 110px;
+    left: 240px;
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 
 }
 .description5{
     position: relative;
-    top: 170px;
-    right: 15%;
+    top: 140px;
+    left: 12px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
     
 }
 .flower_new{
@@ -373,20 +393,84 @@ position: relative;
     justify-content: center;
     display: flex;
     height: 60vh;
-    width: 80%;
+    width: 85%;
+    background-size:56em 20em ;
     background-repeat: no-repeat;
-    background-position: center;
+   
     top: 350px;
-    left: 140px;
+    left: 230px;
 }
-.form{
+input{
+ padding: 10px;
+display: flex;
+position: relative;
+justify-content: center;
+width: 350px;
+height: 30px;
+flex-shrink: 0;
+top: 200px;
+right: 350px;
+border-radius: 5px;
+border: none;
+
+}
+.btn3{
     border-radius: 8px;
-background: #FFF;
+background: #E55473;
+position: relative;
+
+top: 200px;
+right: 330px;
+width: 130px;
+height: 50px;
+flex-shrink: 0;
+
+border: none;
+}
+.text3{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+.text{
+    text-decoration: none;
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.foot_1{
     text-align: center;
     position: relative;
-    top: 70%;
-    right: 300px;
-    width: 700px;
-    height: 64px;
+    top: 400px;
+    background: #a51818;
+    width: 1922px;
+    height: 449px;
     flex-shrink: 0;
+}
+.foot_title{
+    position: relative;
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  
+font-family: Lato;
+font-size: 10px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.foot_description{
+
 }
